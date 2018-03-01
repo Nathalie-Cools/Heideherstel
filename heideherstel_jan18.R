@@ -123,7 +123,7 @@ p + scale_y_continuous("P AUM (mg.kg-1)") + scale_colour_discrete ("Bekalkt") + 
 
 
 p <- ggplot(Zandvoordebos, aes(x= Ndays, y = EC, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
-p + scale_y_continuous("Electrische geleidbaarheid (µs/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
+p + scale_y_continuous("Electrische geleidbaarheid (?s/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
 
 ###################
 # Haverven        #
@@ -155,7 +155,7 @@ p + scale_y_continuous("Ca (cmol(+).kg-1 soil)") + facet_wrap (~Pair, scales = "
 p <- ggplot(Haverven, aes(x= Ndays, y = BS, colour = Limed, shape = Depth), size = 5) + geom_point() +geom_line()
 p + scale_y_continuous("Basenverzadiding (%)") + facet_wrap (~Pair, scales = "free_y")  + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
 
-# de initiële pH(H2O) lag op de verschillende plots al wel wat uit elkaar en was eigenlijk ook al
+# de initi?le pH(H2O) lag op de verschillende plots al wel wat uit elkaar en was eigenlijk ook al
 # redelijk neutraal. De bekalking heeft een effect gehad op de bovenste 5 cm, en er is een vertraging
 # in de 5 - 10 cm laag maar uiteindelijk ziet het ernaar uit dat het terug naar hetzelfde niveau
 # gaat evolueren.En hetzelfde voor pH(CaCl2)
@@ -196,7 +196,7 @@ p + scale_y_continuous("P AUM (mg.kg-1)") + facet_wrap (~Pair, scales = "free_y"
 
 
 p <- ggplot(Haverven, aes(x= Ndays, y = EC, colour = Limed, shape = Depth), size = 5) + geom_point(size = 2) +geom_line()
-p + scale_y_continuous("Electrische geleidbaarheid (µs/cm)") + facet_wrap (~Pair, scales = "free_y") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
+p + scale_y_continuous("Electrische geleidbaarheid (?s/cm)") + facet_wrap (~Pair, scales = "free_y") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
 
 ##############
 # Heiberg   ##
@@ -299,7 +299,7 @@ p <- ggplot(Tielenkamp, aes(x= Ndays, y = BS, colour = Limed, shape = Depth)) + 
 p + scale_y_continuous("Basenverzadiging (%) ") + facet_wrap (~Pair, scales = "free_y") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")  
 
 p <- ggplot(Tielenkamp, aes(x= Ndays, y = EC, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()  + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")  
-p + scale_y_continuous("Electrische geleidbaarheid (µs/cm) ") + facet_wrap (~Pair, scales = "free_y")  + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")  
+p + scale_y_continuous("Electrische geleidbaarheid (?s/cm) ") + facet_wrap (~Pair, scales = "free_y")  + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")  
 
 p <- ggplot(Tielenkamp, aes(x= Ndays, y = NMIN, colour = Limed, shape = Depth)) + geom_point(size = 2) + geom_line()
 p + scale_y_continuous("Minerale stikstof mg.kg-1 ") + facet_wrap (~Pair, scales ="free_y")  + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")  
@@ -368,7 +368,7 @@ p <- ggplot(Aanwijsputten, aes(x= Ndays, y = BS, colour = Limed, shape = Depth))
 p + facet_wrap (~Pair, scales = "free_y") + scale_y_continuous("Base Saturation (%)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
 
 p <- ggplot(Aanwijsputten, aes(x= Ndays, y = EC, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
-p + facet_wrap (~Pair, scales = "free_y")  + scale_y_continuous("Electrische conductiviteit (µs/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
+p + facet_wrap (~Pair, scales = "free_y")  + scale_y_continuous("Electrische conductiviteit (?s/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
 
 p <- ggplot(Aanwijsputten, aes(x= Ndays, y = LOIOS, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
 p + facet_wrap (~Pair, scales = "free_y") + scale_y_continuous("Organische stof (g.kg-1)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
@@ -431,7 +431,7 @@ p <- ggplot(Averbode, aes(x= Ndays, y = BS, colour = Limed, shape = Depth)) + ge
 p + facet_wrap (~Pair, scales = "free_y") + scale_y_continuous("Base Saturation (%)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
 
 p <- ggplot(Averbode, aes(x= Ndays, y = EC, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
-p + facet_wrap (~Pair, scales = "free_y")  + scale_y_continuous("Electrische conductiviteit (µs/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
+p + facet_wrap (~Pair, scales = "free_y")  + scale_y_continuous("Electrische conductiviteit (?s/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
 
 p <- ggplot(Averbode, aes(x= Ndays, y = LOIOS, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
 p + facet_wrap (~Pair, scales = "free_y") + scale_y_continuous("Organische stof (g.kg-1)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking")
@@ -473,7 +473,7 @@ p + facet_wrap (~Pair, scales = "free_y")  + scale_y_continuous("P AUM (mg.kg-1)
 
 
 
-############# tests op trends (één aanhoudende richting) in pH ##########
+############# tests op trends (??n aanhoudende richting) in pH ##########
 
 ############################
 # ZANDVOORDEBOS koppel 17  #
