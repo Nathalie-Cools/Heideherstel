@@ -32,4 +32,4 @@ ik wil beide behouden
 hier wat tekst toevoegen (maar eigenlijk ben ik hier niet tevreden mee)
 en hier wat
 
-
+nu ga ik hier wat toevoegen en dingen veranderen en vragen aan Tanja om dan later op deze versie verder te werken en niet op de oude
