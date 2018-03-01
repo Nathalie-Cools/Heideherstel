@@ -123,7 +123,7 @@ p + scale_y_continuous("P AUM (mg.kg-1)") + scale_colour_discrete ("Bekalkt") + 
 
 
 p <- ggplot(Zandvoordebos, aes(x= Ndays, y = EC, colour = Limed, shape = Depth)) + geom_point(size = 2) +geom_line()
-p + scale_y_continuous("Electrische geleidbaarheid (?s/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
+p + scale_y_continuous("Electrische geleidbaarheid (µs/cm)") + scale_colour_discrete ("Bekalkt") + scale_shape_discrete("Diepte (cm)") + scale_x_continuous("Aantal dagen na bekalking") 
 
 ###################
 # Haverven        #
