@@ -1,3 +1,5 @@
+# deze file is nieuw toegevoegd
+
 setwd("C:/users/nathalie_cools/Documents/Heide_herstel/R_herstel")
 Piloot <- read.csv2("ImportLaboResultatenv15.csv")
 summary(Piloot)
