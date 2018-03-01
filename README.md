@@ -5,6 +5,8 @@
 * list 
 * list2
 
+hier even iets tussenzetten
+
 1. sdfds
 2. sdfdsf
 
@@ -17,3 +19,5 @@ Deze repository bevat de opvolging van de statistische analyses voor het bodemde
 nu voeg ik hier wat tekst toe voor de oefening om de readme.md aan te passen
 
 en wat als ik nu terug wat tekst bijtip en dan opnieuw will pushen?
+
+dan dan hier ook nog eens 
