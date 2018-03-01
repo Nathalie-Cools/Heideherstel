@@ -28,3 +28,8 @@ en ook hier iets nadat ik iets lokaal had toegevoegd, gecomit maar nog niet gesu
 >>>>>>> 205be4b78453ff44b7fde44e975acea65853ab33
 
 ik wil beide behouden
+
+hier wat tekst toevoegen (maar eigenlijk ben ik hier niet tevreden mee)
+en hier wat
+
+
